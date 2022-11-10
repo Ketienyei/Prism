@@ -42,7 +42,7 @@ body{
 }
 
 .btn:hover{
-    background: #00f;
+    background: rgb(129, 129, 190);
 }
 #btn1{
     float: right;
@@ -63,7 +63,6 @@ nav ul li a{
     margin: 0 5px;
     text-decoration: none;
     color: black;
-    opacity: 0.5;
     transition: .5s;
     font-size: 20px;
     font-weight: bolder;
@@ -95,7 +94,7 @@ nav ul li a{
 
 }
 .heading span {
-    color: blue;
+    color: rgb(129, 129, 190);
 }
 
 .hero-section.content p{
@@ -105,4 +104,82 @@ nav ul li a{
     text-transform: capitalize;
     font-size: 35px;
     font: weight 300; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer section*/
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+   list-style: none; 
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: rgb(146, 146, 211);
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4 ::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: blue;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #333;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 10px;
+}
+.social-links{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    padding-left: 20px;
 }
