@@ -80,9 +80,13 @@ nav ul li a{
     align-items: center;
 }
  .image{
-    height: 150px;
+    height: 250px;
     display: flex;
     margin: auto;
+}
+.image p{
+    display: flex;
+    align-items: center;
 }
 .heading {
     text-align: center;
