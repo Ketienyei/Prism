@@ -81,7 +81,7 @@ nav ul li a{
 }
  .image{
     height: 150px;
-    display: block;
+    display: flex;
     margin: auto;
 }
 .heading {
