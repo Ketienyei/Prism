@@ -115,6 +115,36 @@ nav ul li a{
 
 
 
+.title-box{
+    padding: 30px 20px;
+}
+
+
+.team{
+    background: pink;
+}
+
+.title-box p{
+    margin-top: 10px;
+    line-height: 24px;
+    text-align: center;
+    color: #e84393;
+    font-size: medium;
+}
+.profile-box{
+    width: 240px;
+    height: 240px;
+    background: rgb(90, 51, 90);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    box-shadow: 0 10x 10px 10px rgba(115, 193, 255, 0.1);
+    padding: 20px;
+    position: relative;
+    transition: background 0.5s;
+}
+
+
+
 
 
 
