@@ -15,20 +15,28 @@ body{
     position: inherit;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100px;
-    background: hsl(280, 9%, 86%);
     z-index: 9;
 }
-.nav{
-    padding: 10px 10vw;
-    margin-top: 20px;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
+
+.navbar ul li a{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    font-size: 20px;
+    font-weight: bolder;
 }
+h3{
+    padding-right: 60px;
+}
+
+
 .brand-logo{
     height: 100px;
+    float: left;
+    padding: 20px;
 }
 .btn{
     display: inline-block;
@@ -38,7 +46,7 @@ body{
     color: #fff;
     padding: 0.7rem 1rem;
     cursor: pointer;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .btn:hover{
@@ -81,20 +89,22 @@ nav ul li a{
     align-items: center;
 }
  .image{
-    height: 250px;
     display: flex;
-    margin: auto;
+    margin: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
 }
+
 .image p{
-    display: flex;
-    align-items: center;
+    display: inline-block; 
+    padding: 0 20px 20px 0
 }
 .heading {
-    text-align: center;
-    font-size: 4rem;
+    text-align: start;
+    font-size: 6rem;
     color: #333;
     padding: 1rem;
-    margin: 2rem 0;
+    margin: 5rem 3rem;
     font-weight: bolder;
 
 }
@@ -102,43 +112,44 @@ nav ul li a{
     color: rgb(129, 129, 190);
 }
 
-.hero-section.content p{
-    margin-top: 10px;
-    text-align: center;
+.hero-section.content p .btn{
+    margin-top: 5rem;
+    text-align: start ;
     color: #fff;
     text-transform: capitalize;
     font-size: 35px;
     font: weight 300; 
+    display: block;
+    float: inline-start;
 }
-
-
 
 
 
 
 .title-box{
-    padding: 30px 20px;
+    padding: 1rem;
+    margin: 2rem 0;
 }
-
 
 .team{
     background: pink;
 }
 
 .title-box p{
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     color: #e84393;
     font-size: medium;
 }
 .profile-box{
-    width: 240px;
-    height: 240px;
+    padding: 2rem;
+    margin: 2rem 0;
+    width: 300px;
+    height: 500px;
     background: rgb(129, 129, 190);
     border-radius: 4px;
     margin-bottom: 30px;
     box-shadow: 0 10x 10px 10px rgba(115, 193, 255, 0.1);
-    padding: 20px;
     position: relative;
     transition: background 0.5s;
 }
@@ -255,8 +266,6 @@ ul{
 .social-links a:hover{
     color: #24262b;
     background-color: #fff;
-    
-
 }
 
 /*footer responsiveness*/
