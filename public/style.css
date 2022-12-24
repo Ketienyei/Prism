@@ -47,6 +47,7 @@ h3{
     padding: 0.7rem 1rem;
     cursor: pointer;
     font-size: 1rem;
+    padding-right: 30px;
 }
 
 .btn:hover{
@@ -84,15 +85,25 @@ nav ul li a{
     height: calc(100vh-120px);
     background-image: url('../img/header.png');
     background-size: cover;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
 }
+.hero-section .content{
+    padding-left: 40px;
+}
+.hero-section p{
+    padding-left: 70px;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+
  .image{
     display: flex;
     margin: 30px;
     padding-bottom: 30px;
     justify-content: space-between;
+    overflow: flip;
 }
 
 .image p{
@@ -104,12 +115,14 @@ nav ul li a{
     font-size: 6rem;
     color: #333;
     padding: 1rem;
-    margin: 5rem 3rem;
-    font-weight: bolder;
-
+    margin: 5rem 2rem;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
 }
 .heading span {
     color: rgb(129, 129, 190);
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
 }
 
 .hero-section.content p .btn{
@@ -124,15 +137,15 @@ nav ul li a{
 }
 
 
-
+.min-container{
+    display: flex;
+    padding: 30px;
+}
 
 .title-box{
     padding: 1rem;
     margin: 2rem 0;
-}
-
-.team{
-    background: pink;
+    
 }
 
 .title-box p{
@@ -140,6 +153,7 @@ nav ul li a{
     display: flex;
     color: #e84393;
     font-size: medium;
+    padding-left: 1rem;
 }
 .profile-box{
     padding: 2rem;
@@ -152,11 +166,15 @@ nav ul li a{
     box-shadow: 0 10x 10px 10px rgba(115, 193, 255, 0.1);
     position: relative;
     transition: background 0.5s;
+    
 }
 .profile-box h2{
     margin-top: 25px;
     margin-bottom: 5px;
     color: rgb(17, 17, 131);
+}
+.profile-box img h3{
+    display: flex;
 }
 
 .profile-box p{
@@ -170,6 +188,7 @@ nav ul li a{
     flex-wrap: wrap;
     width: 85%;
     margin: auto;
+    padding-left: 120px;
 }
 
 .profile-box:hover{
@@ -181,11 +200,53 @@ nav ul li a{
 .profile-box:hover p{
     color: #fff;
 }
+.checkout h2{
+font-size: 2rem;
+padding-bottom: 30px;
+padding-left: 30px;
+}
 
+.checkout p{
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
 
+.payments{
+    padding-right: 60px;
+    justify-content: space-around;
+}
+.payments h2{
+    font-size: 2rem;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.payments p{
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.payments a{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: cursive;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: crimson;
+}
+.payments a:hover{
+    color: rgb(129, 129, 190);
+}
+.outpays{
+    padding-top: 70px;
+}
 
-
-
+.hero2-section{
+    display: flex;
+}
 
 
 
