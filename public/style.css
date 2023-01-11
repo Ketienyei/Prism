@@ -17,17 +17,17 @@ body{
     left: 0;
     z-index: 9;
 }
+.navbar ul li{
+    width : 80px;
+    margin: 15px;
+    padding: 15px;
+}
 .navbar ul {
     display: inline-flex;
     list-style: none;
     color: #000;
 }
 
-.navbar ul li{
-    width : 80px;
-    margin: 15px;
-    padding: 15px;
-}
 .navbar ul li a{
     text-decoration: none;
     color: #000;
@@ -39,7 +39,7 @@ body{
     border-radius: 3px;
 }
 
-/*.navbar ul li a{
+.navbar ul li a{
     text-transform: capitalize;
     padding: 0 10px;
     margin: 0 5px;
@@ -48,7 +48,7 @@ body{
     transition: .5s;
     font-size: 20px;
     font-weight: bolder;
-}*/
+}
 h3{
     padding-right: 60px;
 }
@@ -69,6 +69,7 @@ h3{
     cursor: pointer;
     font-size: 1rem;
     padding-right: 30px;
+    margin-left: 4rem;
 }
 
 .btn:hover{
@@ -135,10 +136,11 @@ nav ul li a{
     text-align: start;
     font-size: 6rem;
     color: #333;
-    padding: 1rem;
+    padding-left: 2rem;
     margin: 5rem 2rem;
-    font-weight: 900;
+    font: weight 1000px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    margin-left: 2rem;
 }
 .heading span {
     color: rgb(129, 129, 190);
@@ -146,7 +148,7 @@ nav ul li a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
 }
 
-.hero-section.content p .btn{
+.hero-section.content p {
     margin-top: 5rem;
     text-align: start ;
     color: #fff;
@@ -156,11 +158,26 @@ nav ul li a{
     display: block;
     float: inline-start;
 }
+.hero-section .btn{
+    padding-left: 2rem;
+    align-content: center;
+}
 
 
 .min-container{
     display: flex;
     padding: 30px;
+}
+.checkout h2{
+    font-size: 2rem;
+    padding-bottom: 30px;
+    padding-left: 2rem;
+    }
+    
+.checkout p{
+    font-size: 1.3rem;
+     padding-bottom: 20px;
+     padding-left: 30px;
 }
 
 .title-box{
@@ -221,17 +238,6 @@ nav ul li a{
 .profile-box:hover p{
     color: #fff;
 }
-.checkout h2{
-font-size: 2rem;
-padding-bottom: 30px;
-padding-left: 30px;
-}
-
-.checkout p{
-    font-size: 1.3rem;
-    padding-bottom: 20px;
-    padding-left: 30px;
-}
 
 .payments{
     padding-right: 60px;
@@ -265,11 +271,59 @@ padding-left: 30px;
     padding-top: 70px;
 }
 
-.hero2-section{
+
+
+
+
+
+/* section 4 containing hero2-section */
+.hero2-section {
+    margin-top: 5rem;
+    font-size: 35px;
+    font: weight 300; 
     display: flex;
+    
+}
+.hero2-section .btn{
+    padding-left: 2rem;
+    align-content: center;
 }
 
 
+.checkout2 h2{
+    font-size: 2rem;
+    padding-bottom: 30px;
+    padding-left: 19rem;
+    }
+    
+.checkout2 p{
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+    padding-left: 19rem;
+}
+.hero-section .checkout2 .myimage img{
+    padding-left: 30rem;
+    float: right;
+}
+.hero-section .checkout2 .btn{
+    margin-left: 19rem;
+}
+.btn3{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    background: #333;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-right: 30px;
+    margin-left: 19rem;
+}
+
+.btn3:hover{
+    background: rgb(129, 129, 190);
+}
 
 
 
@@ -282,9 +336,8 @@ padding-left: 30px;
     max-width: 1170px;
     margin: auto;
 }
-ul{
-   list-style: none; 
-}
+
+
 .row{
     display: flex;
     flex-wrap: wrap;
