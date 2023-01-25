@@ -7,7 +7,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background: rgba(199, 175, 243, 0.8);
+    background: rgba(215, 214, 218, 0.918);
 }
 
 /*navbar links*/
@@ -73,7 +73,7 @@ h3{
 }
 
 .btn:hover{
-    background: rgb(129, 129, 190);
+    background: rgb(226, 226, 233);
 }
 #btn1{
     float: right;
